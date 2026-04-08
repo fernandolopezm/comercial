@@ -1,19 +1,61 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HACIENDAS DE ÑUBLE</title>
 
-    <link rel="icon" href="https://url-de-tu-logo.png" type="image/x-icon">
+    <link rel="icon" href="https://i.postimg.cc/wBJp3qZp/Teto.png" type="image/png">
 
     <meta property="og:title" content="HACIENDAS DE ÑUBLE">
-    <meta property="og:description" content="Sistema de gestión">
+    <meta property="og:description" content="Acceso al sistema de gestión de haciendas.">
     <meta property="og:image" content="https://i.postimg.cc/wBJp3qZp/Teto.png">
+    <meta property="og:type" content="website">
 
     <script>
-      window.location.href = "https://script.google.com/macros/s/AKfycbzKnBV0WOuz8Q-N5Page517S4TRKRYg-1bHH0VvW4ImpRDxjJFnKClcGGRl2zt8a_Q/exec";
+        // "replace" es mejor que "href" porque no deja la página en el historial
+        // evitando que el usuario quede atrapado al presionar el botón "atrás".
+        window.location.replace("https://script.google.com/macros/s/AKfycbwm6tJMELRSFKawFfzPdXaNUkmh0BL2QF-5iSqxAYhxrkCeluVqVaOBlsuvvJHWp94J/exec");
     </script>
-  </head>
 
-  <body>
-  </body>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            text-align: center;
+        }
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a { color: #3498db; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="loader"></div>
+    
+    <h2>Cargando HACIENDAS DE ÑUBLE...</h2>
+    
+    <p>Si no eres redirigido automáticamente en unos segundos,<br>
+       <a href="https://script.google.com/macros/s/AKfycbwm6tJMELRSFKawFfzPdXaNUkmh0BL2QF-5iSqxAYhxrkCeluVqVaOBlsuvvJHWp94J/exec">haz clic aquí para ingresar</a>.
+    </p>
+
+</body>
 </html>
